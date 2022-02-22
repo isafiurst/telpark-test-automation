@@ -1,9 +1,20 @@
-Instalar o Cypress -> npm install -D cypress
+1. Clonar o repositório:
+git clone <URL>
 
-Instalar a estruta de pastas -> ./node_modules/.bin/cypress open
+2. Entrar na pasta:
+cd .\telpark-test-automation\
 
-Instalar o xpath -> npm install -D cypress-xpath
+3. Instalar o Cypress:
+npm install -D cypress
 
-Abrir o Cypress: npm run open
+4. Instalar a estruta de pastas:
+./node_modules/.bin/cypress open
 
-Gerar relatórios -> npm run test
+5. Instalar o xpath:
+npm install -D cypress-xpath
+
+6. Abrir o Cypress:
+npm run open
+
+7. Gerar relatórios:
+npm run test
